@@ -31,8 +31,8 @@ class AFKMod(loader.Module):
     strings = {"name": "AFK",
                "gone": "<b>I'm goin' AFK</b>",
                "back": "<b>I'm no longer AFK</b>",
-               "afk": "<b>I'm AFK right now (since {} ago).</b>",
-               "afk_reason": "<b>I'm AFK right now (since {} ago).\nReason:</b> <i>{}</i>"}
+               "afk": "<b>(Автоответчик) Я не в сети (с {} назад).</b>",
+               "afk_reason": "<b>(Автоответчик) Я не в сети (с {} назад).\nПричина:</b> <i>{}</i>"}
 
     async def client_ready(self, client, db):
         self._db = db
