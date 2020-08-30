@@ -16,7 +16,7 @@ class AFKMod(loader.Module):
                "gone": "Я выхожу с сети",
                "back": "Я с сети",
                "afk": "<b>(Автоответчик) Я не в сети! (уже {}).</b>",
-               "afk_reason": "{}"}
+               "afk_reason":"<b>(Автоответчик) Я не в сети! (уже {}).</b> "{}"}
 
     async def client_ready(self, client, db):
         self._db = db
