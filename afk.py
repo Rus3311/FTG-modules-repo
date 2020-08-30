@@ -13,8 +13,8 @@ logger = logging.getLogger(__name__)
 class AFKMod(loader.Module):
     """Посылает при вашем теге"""
     strings = {"name": "Автоответ(senator/jony)",
-               "gone": "Я выхожу с сети",
-               "back": "Я с сети",
+               "gone": "Перехожу в Оффлайн",
+               "back": "Я Онлайн",
                "afk": "<b>(Автоответчик) Я не в сети (уже {}).</b>",
                "afk_reason": "{}"}
     async def client_ready(self, client, db):
